@@ -10,7 +10,7 @@ The database schema includes tables such as department, employee, salary grade. 
 # Setup Instructions
 To set up the employees database locally or on a server:
 
-Clone the Repository: [Project Repository]git clone <()> cd employees-sql-project
+Clone the Repository: [Project Repository]git clone <(https://github.com/sabir5623/SQL-Employees-Database-Project-/tree/main)> cd employees-sql-project
 
 Create the Database: Execute create_databese.sql to create the database schema mysql -u username -p < create_database.sql
 
@@ -19,7 +19,7 @@ Insert Sample Data: Populate the database with sample data using insert_data.sql
 Run Queries: mysql -u username -p < quaries.sql
 
 # Queries and Analysis
-The queries.sql file contains SQL queries to: Retrieve information about all the employee, their salary and where they are joined. Calculate total revenue generated from ticket sales. Analyze employee work hours and their contributions to sales. Identify popular attractions based on visitor counts.
+The queries.sql file contains SQL queries to: Retrieve information about all the employee, their salary and when they are joined. Analyze employee work experience and their salary grade. Identify popular employee based on manager.
 
 # Deployment
 This project can be deployed to any MySQL-compatible database server. Follow the setup instructions to initialize the database schema and populate it with data.
